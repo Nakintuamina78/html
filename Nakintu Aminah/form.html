@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        form{
+            color: #fff;
+            text-align: center;
+            font-size: 35px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            
+        }
+        
+        
+         body{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                text-align: center;
+                background-color: chocolate;
+            }
+            .main{
+                width: 100%;
+            }
+            nav{
+                width: 100%;
+                background-color: black ;
+                height: 80px;
+                line-height: 80px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .log a{
+                font-size: 30px;
+                color:red;
+                font-weight: bold;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 17px;
+                transition: 0.5s all ease;
+            }
+            ul{
+                margin: 0px;
+            }
+            ul li{
+                float: left;
+                padding: 0px 10px;
+                list-style: none;
+            }
+            ul li a:hover{
+                color:mediumspringgreen;
+            }
+            .header{
+               
+                background-position: center;
+                background-size: cover;
+                height: 100vh;
+            }
+            
+           
+            button:hover{
+                background-color: black;
+                color:red;
+                
+            }
+            form{
+                border: 90%;
+            }
+    </style>
+</head>
+<body>
+    <nav><div class="logo">
+        <a href="">NAKINTU AMINAH</a>
+    </div>
+    <ul>
+        <li><a href="aminah .html">HOME</a></li>
+        <li><a href="form.html">FORM</a></li>
+        <li><a href="friends list.html">FRIEND LIST</a></li>
+        <li><a href="table.html">TABLE</a></li>
+    </ul></nav>
+    <h1>FORM</h1>
+        <form action="results.html" method="GET" >
+            <div>
+                <label f0r="name">NAME</label> 
+                <input type="text"name="name" id="name" required>
+    
+                <label f0r="name">LAST NAME</label> 
+                <input type="text"name="name" id="name" required>
+            </div>
+            <br><br>
+            <div>
+                <label for="EMAIL">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+                
+            </div>
+            <br><br>
+            <div>
+                <label for="AGE">AGE</label>
+                <input type="number"name=AGE id="AGE" min="1" max="200" step="1">
+            </div>
+            <br><br>
+            <div>
+                <label for="DATE">BIRTHDATE</label>
+                <input type="DATE" name="DATE" id="DATE">
+            </div>
+            <br><br>
+            <div>
+                GENDER
+            </div>
+            <label for="MALE">MALE</label>
+            <input type="radio" name="gender" id="male" value="MALE">
+            <div>
+                <label for="FEMALE">FEMALE</label>
+                <input type="radio" name="gender" id="FEMALE" value="FEMALE">
+            </div>
+            <div>
+                <br><br>
+                <div>
+                    <label for="PHONE">PHONE</label>
+                    <input type="tel"name="phone" id="phone">
+                    <br><br>
+                </div>
+                <div>
+                    <label for="bio">YOUR BIO:</label><br>
+                    <textarea name="bio" id="bio" cols="30" rows="10"placeholder="about you"></textarea>
+                    <br><br>
+                </div>
+                <br><br>
+                <LAbel>
+    
+                    PASSWORD
+                 <input type="PASSWORD" name="PASSWORD" required>
+                </LAbel>
+                </div>
+                <button  type="reset">reset</button>
+                <button type= "submit" >submit</button>
+    
+        </form>
+   
+    
+</body>
+</html>
